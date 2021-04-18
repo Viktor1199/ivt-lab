@@ -70,7 +70,7 @@ public class GT4500 implements SpaceShip {
               firingSuccess = secondaryTorpedoStore.fire(1);
               wasPrimaryFiredLast = false;
             }
-
+// változtatás a branch-A-n
             // if both of the stores are empty, nothing can be done, return failure
           }
         }
